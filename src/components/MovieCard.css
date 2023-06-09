@@ -1,0 +1,75 @@
+.movie__card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(182, 176, 176);
+    border: 2px solid rgb(40, 38, 38);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.movie__image {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 2px solid black;
+}
+
+.image {   
+    height: 100%;
+}
+
+.movie__details {
+     display: flex;
+    flex-direction: column;
+    background-color: rgb(182, 176, 176);
+    color: rgb(78, 62, 62);
+}
+
+.movie__name {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie__name > div {
+    flex: 1;
+    border: 2px solid rgb(40, 38, 38);
+    text-align: center;
+}
+
+.movie__actors {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie__actors > div {
+    flex: 1;
+     border: 2px solid rgb(40, 38, 38);
+     text-align: center;
+}
+
+.movie__genre {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie__genre > div {
+    flex: 1;
+     border: 2px solid rgb(40, 38, 38);
+     text-align: center;
+}
+
+.movie__year {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie__year > div {
+    flex: 1;
+     border: 2px solid rgb(40, 38, 38);
+     text-align: center;
+}
+
+
+
+
