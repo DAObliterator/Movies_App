@@ -16,11 +16,12 @@ function NewMovie(props) {
     
 
     }
-
-    <div className="new-movie">
-        <MovieForm onSaveMovieData = {saveMovieDataHandler} />
-    </div>
-
+     return (
+          <div className="new-movie">
+            <MovieForm onSaveMovieData = {saveMovieDataHandler} />
+           </div>
+     )
+   
 }
 
 export default NewMovie;
